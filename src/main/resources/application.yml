@@ -1,0 +1,6 @@
+jobs-config.jobs:
+  - className: com.example.quartz.job.Job_A
+    cronExpression: /5 * * * * ?
+  - className: com.example.quartz.job.Job_B
+    cronExpression: /5 * * * * ?
+

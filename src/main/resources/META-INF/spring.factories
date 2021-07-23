@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.example.quartz.configuration.JobsConfiguration, \
+com.example.quartz.configuration.Job_B_AutoConfiguration

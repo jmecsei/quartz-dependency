@@ -18,5 +18,6 @@ szükség, hogy a Job-ok hamarabb létre jöjjenek, mint a `SchedulerFactoryBean
 ```
 
 **PROBLÉMA**
+
 Szeretném azt megoldani, hogy ha valaki nem definiál egy Job-ot akkor annak legyen egy auto-config -ja `Job_B_AutoConfiguration`.
 De ebben azt esetben ez a config mindig hamarabb fut le mint a `JobsConfiguration#creteJobs()` és hibát kapok.
